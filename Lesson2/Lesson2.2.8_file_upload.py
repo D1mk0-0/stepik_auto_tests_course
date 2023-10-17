@@ -21,7 +21,7 @@ try:
 
     # Теперь разбираюсь с путем
     # Получаю путь текущего файла (В скобках надо писать наименование ЭТОГО ФАЙЛА)
-    current_dir = os.path.abspath(os.path.dirname("Lession2.2.8_file_upload.py"))
+    current_dir = os.path.abspath(os.path.dirname("Lesson2.2.8_file_upload.py"))
     # Сохраняю в переменную имя файла, который буду добавлять
     file_name = "file.txt"
     # Получаю путь к своему файлу
