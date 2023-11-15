@@ -15,3 +15,33 @@ pip freeze > requirements.txt
 
 pip install -r requirements.txt
 В свежем окружении все пакеты установлены одной командой!
+
+Виртуальное окружение:
+ Запустить (создать папку) виртуального окружения:
+  python -m venv venv
+
+ Активировать окружение:
+  $ venv\Scripts\activate
+
+ Печать установленных библиотек:
+  pip freeze
+
+ Обновить установленную библиотеку:
+  pip install -U pip название_библиотеки
+
+ Устанавливаю нужные библиотеки:
+  pip install название_библиотеки еще_одной_библиотеки
+
+ Удаление библиотеки:
+  pip uninstall название_библиотеки -y
+
+ Создаю файл с зависимостями:
+  pip freeze > requirements.txt
+
+ Отключить виртуальное окружение:
+  deactivate
+
+ Активировать и запустить новое окружение с новыми зависимостями:
+  python -m venv venv
+  $ venv\Scripts\activate
+  pip install -r requirements.txt
